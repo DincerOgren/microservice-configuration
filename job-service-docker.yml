@@ -8,7 +8,7 @@ company-service:
 spring:
   data:
     mongodb:
-      uri: mongodb://mongo_container:27017/jobdb
+      uri: mongodb://mongo:27016/jobdb
     #uri: ${ATLAS_SECRET}
       #database: jobdb
       database: jobdb

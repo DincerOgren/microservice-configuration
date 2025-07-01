@@ -8,7 +8,7 @@ company-service:
 spring:
   datasource:
     #url: jdbc:postgresql://localhost:5432/companydb
-    url: jdbc:mysql://mysql_container:3307/dincergr
+    url: jdbc:mysql://mysql:3306/dincergr
     username: ${DB_USER}
     password: ${DB_PASS}
   jpa:
@@ -20,7 +20,7 @@ spring:
       hibernate:
         format_sql: true
   rabbitmq:
-    host: localhost
+    host: rabbitmq
     port: 5672
     username: guest
     password: guest

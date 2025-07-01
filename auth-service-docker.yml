@@ -8,7 +8,7 @@ company-service:
 spring:
   datasource:
     #url: jdbc:postgresql://localhost:5432/companydb
-    url: jdbc:mysql://mysql:3307/dincergr
+    url: jdbc:mysql://mysql:3306/dincergr
     username: ${DB_USER}
     password: ${DB_PASS}
   jpa:

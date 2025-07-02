@@ -43,7 +43,7 @@ server:
 
 app:
   message: "Hello company service!"
-  jwtSecret: M9I6vAzZgxgTVKe9ZzMZy7OLs/ly1G7d0ozukNY6hGE=
+  jwtSecret: ${jwt_secret}
 
 
 eureka:
